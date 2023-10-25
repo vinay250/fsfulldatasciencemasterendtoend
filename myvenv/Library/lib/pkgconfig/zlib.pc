@@ -1,0 +1,13 @@
+prefix=E:/fsfulldatasciencemasterendtoend/myvenv/Library
+exec_prefix=E:/fsfulldatasciencemasterendtoend/myvenv/Library
+libdir=E:/fsfulldatasciencemasterendtoend/myvenv/Library/lib
+sharedlibdir=E:/fsfulldatasciencemasterendtoend/myvenv/Library/lib
+includedir=E:/fsfulldatasciencemasterendtoend/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
