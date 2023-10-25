@@ -5,3 +5,4 @@
 # git add abc.txt
 # git add .
 # git commit -m "this my first commit"
+# git pull to fetch files from github to vscode
