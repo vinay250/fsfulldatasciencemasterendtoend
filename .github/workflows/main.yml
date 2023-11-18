@@ -29,7 +29,12 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+<<<<<<< HEAD
         ECR_REPOSITORY: dimondpriceprediction
+=======
+        ECR_REPOSITORY: dimondpricepre
+         
+>>>>>>> bc25efc885b3326227fbcee63c19c5cb35b514b5
         IMAGE_TAG: latest
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
